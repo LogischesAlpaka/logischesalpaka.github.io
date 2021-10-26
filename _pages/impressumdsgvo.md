@@ -7,11 +7,15 @@ title: Impressum & Datenschutz
 # Impressum
 ## Angaben gemäß § 5 TMG
 **Justin Krause**
+
 Anschift auf nachfrage
 
 **Kontakt**
+
 Telefon: auf nachfrage
+
 Telefax: auf nachfrage
+
 E-Mail: [<img src="{{ site.baseurl }}/images/email.jpg">]({{ site.baseurl }}/)
 
 # Datenschutzerklärung
