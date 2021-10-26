@@ -3,7 +3,7 @@ layout: page
 title: Suche
 permalink: /search/
 ---
-
+[Kategorien](https://logischesalpaka.github.io/categories/ "Nach Kategorien filtern...")
 <div id="search-container">
     <input type="text" id="search-input" placeholder="Beiträge durchsuchen...">
     <ul id="results-container"></ul>
