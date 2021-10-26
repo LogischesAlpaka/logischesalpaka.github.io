@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /archive/
-title: Archiv
+title: Alle Beiträge
 ---
 
 
