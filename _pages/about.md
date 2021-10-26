@@ -4,10 +4,6 @@ title: Über mich
 permalink: /about/
 ---
 
-Diese Seite ist noch in Arbeit! [Zurück zur Startseite]({{ site.baseurl }}/).
-
-[<img src="{{ site.baseurl }}/images/404.jpg" alt="Constructocat by https://github.com/jasoncostello" style="width: 400px;"/>]({{ site.baseurl }}/)
-
 Hi, ich bin Justin.
 Aktuell mache ich mein Fachabitur Informatik. Nebenbei mache ich gelegentlich kleine und größere IT-Projekte für Familie, Freunde, Bekannte, etc. 
 Vieles habe ich mir selbst beigebracht und ich dachte mir warum dieses Wissen für mich behalten... Also entschloss ich mich eine Seite zu basteln, auf der ich meinen Ideen freien Lauf lassen kann.
