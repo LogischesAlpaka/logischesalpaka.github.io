@@ -1,0 +1,7 @@
+---
+layout: none
+---
+User-agent: *
+Disallow: /impressumdsgvo/
+Disallow: /images/email.jpg
+Sitemap: {{ site.url }}/sitemap.xml

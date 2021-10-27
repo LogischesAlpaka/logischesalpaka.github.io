@@ -17,6 +17,8 @@ avatar: https://avatars.githubusercontent.com/u/88859068
 #
 # Flags below are optional
 #
+#Language of your Site
+locale: de_DE
 
 # Includes an icon in the footer for each username you enter
 footer-links:
