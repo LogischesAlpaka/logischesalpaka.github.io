@@ -12,7 +12,7 @@ Anschift auf nachfrage
 
 **Kontakt**
 
-Telefon: auf nachfrage
+Telefon auf nachfrage
 
 E-Mail: [<img src="{{ site.baseurl }}/images/email.jpg">]({{ site.baseurl }}/)
 
