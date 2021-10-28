@@ -14,11 +14,28 @@ Anschift auf nachfrage
 
 Telefon: auf nachfrage
 
-Telefax: auf nachfrage
-
 E-Mail: [<img src="{{ site.baseurl }}/images/email.jpg">]({{ site.baseurl }}/)
 
 # Datenschutzerklärung
+Mit der folgenden Datenschutzerklärung möchten wir Sie darüber aufklären, welche Arten Ihrer personenbezogenen Daten (nachfolgend auch kurz als "Daten“ bezeichnet) wir zu welchen Zwecken und in welchem Umfang verarbeiten.
+
+Wenn Sie diese Website benutzen, werden verschiedene Daten erhoben. Die Datenschutzerklärung erläutert, welche Daten wir erheben und wofür wir sie nutzen. Sie erläutert auch, wie und zu welchem Zweck das geschieht.
+
+Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann.Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
+
+## Wer ist verantwortlich für die Datenerfassung auf dieser Website?
+Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem [Impressum](https://logischesalpaka.github.io/impressumdsgvo/) entnehmen.
+
+## Wie erfassen wir Ihre Daten?
+Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten (z. B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.
+
+## Wofür nutzen wir Ihre Daten?
+Die Daten werden erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten.
+
+## Speicherdauer
+Soweit innerhalb dieser Datenschutzerklärung keine speziellere Speicherdauer genannt wurde, verbleiben
+Ihre personenbezogenen Daten bei uns, bis der Zweck für die Datenverarbeitung entfällt.
+
 ## Google Fonts
 Wir verwenden Google Fonts der Firma Google Inc. ( *1600 Amphitheatre Parkway Mountain View, CA 94043, USA* ) auf unserer Webseite. Die Verwendung von Google Fonts erfolgt ohne Authentisierung und es werden keine Cookies and die Google Fonts API gesendet. Sollten Sie ein Konto bei Google haben, werden keine Ihrer Google-Kontodaten an Google während der Nutzung von Google Fonts übermittelt. Google erfasst lediglich die Nutzung von CSS und der verwendeten Fonts und speichert diese Daten sicher. Mehr zu diesen und weiteren Fragen finden Sie auf https://developers.google.com/fonts/faq.
 
