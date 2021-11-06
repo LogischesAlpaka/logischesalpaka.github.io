@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Syncthing - Immer alles dabei
-description: Die eigene Cloud, nur einfacher.
+description: Syncthing ist eine OpenSource Software, die Dateisynchronisation so einfach wie möglich macht und doch viele detaillierte Einstellungen möglich macht. 
 categories: [Software]
 ---
 [Syncthing](https://syncthing.net/ "Webseite des Projekts") ist eine OpenSource Software, die Dateisynchronisation so einfach wie möglich macht und doch viele detaillierte Einstellungen möglich macht.  
