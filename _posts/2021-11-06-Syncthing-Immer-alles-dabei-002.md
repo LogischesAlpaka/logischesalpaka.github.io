@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Syncthing - Immer alles dabei
-description: Syncthing ist eine OpenSource Software, die Dateisynchronisation so einfach wie möglich macht und doch viele detaillierte Einstellungen möglich macht. 
+description: Syncthing ist eine OpenSource Software, die Dateisynchronisation so einfach wie möglich macht.
 categories: [Software]
 ---
-[Syncthing](https://syncthing.net/ "Webseite des Projekts") ist eine OpenSource Software, die Dateisynchronisation so einfach wie möglich macht und doch viele detaillierte Einstellungen möglich macht.  
+[Syncthing](https://syncthing.net/ "Webseite des Projekts") ist eine OpenSource Software, die Dateisynchronisation so einfach wie möglich macht.  
 Dabei funktioniert das Programm ohne zwischengeschaltete Server. Sozusagen die eigene Cloud, nur einfacher.  
   
 Ich persönlich nutze es um meine Musikbibliothek, meine Joplin Notizen (vielleicht mache ich hier auch mal einen Artikel drüber) und einige Dateien zwischen Notebook, Android Smartphone und RaspberryPi Synchron zu halten.  
