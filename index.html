@@ -9,7 +9,8 @@ layout: default
         <h1>{{ post.title }}</h1>
 
         <div>
-          <p class="post_date">{{ post.date | date: "%d.%m.%y" }}</p>
+          {% include date-german.html date=post.date showDay=true %}
+          {{ formattedDate }}
         </div>
       </a>
       <div class="entry">
