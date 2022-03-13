@@ -2,6 +2,6 @@
 layout: none
 ---
 User-agent: *
-Disallow: /impressumdsgvo/
 Disallow: /images/email.jpg
-Sitemap: {{ site.url }}/sitemap.xml
+Disallow: /404.html
+Sitemap: /sitemap.xml
