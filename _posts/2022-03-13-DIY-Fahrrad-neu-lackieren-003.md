@@ -48,7 +48,7 @@ Zum Schluss, hier einige Bilder der Aktion:
 
 *Nachher* 
  
-[<img src="{{ site.baseurl }}/images/IMG_20220312_180417~2.jpg">]({{ site.baseurl }}/images/IMG_20220312_180417~2.jpg)
+[<img src="{{ site.baseurl }}/images/IMG_20220312_1804172.jpg">]({{ site.baseurl }}/images/IMG_20220312_1804172.jpg)
 [<img src="{{ site.baseurl }}/images/IMG_20220312_185354.jpg.jpg">]({{ site.baseurl }}/images/IMG_20220312_185354.jpg)
 [<img src="{{ site.baseurl }}/images/IMG_20220312_172352.jpg">]({{ site.baseurl }}/images/IMG_20220312_172352.jpg)
  
