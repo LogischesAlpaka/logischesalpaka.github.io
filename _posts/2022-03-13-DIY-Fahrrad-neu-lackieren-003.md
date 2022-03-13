@@ -49,7 +49,7 @@ Zum Schluss, hier einige Bilder der Aktion:
 *Nachher* 
  
 [<img src="{{ site.baseurl }}/images/IMG_20220312_1804172.jpg">]({{ site.baseurl }}/images/IMG_20220312_1804172.jpg)
-[<img src="{{ site.baseurl }}/images/IMG_20220312_185354.jpg.jpg">]({{ site.baseurl }}/images/IMG_20220312_185354.jpg)
+[<img src="{{ site.baseurl }}/images/IMG_20220312_185354.jpg">]({{ site.baseurl }}/images/IMG_20220312_185354.jpg)
 [<img src="{{ site.baseurl }}/images/IMG_20220312_172352.jpg">]({{ site.baseurl }}/images/IMG_20220312_172352.jpg)
  
 **Natürlich folgen an dieser Stelle bessere Bilder, sobald das Bike wieder aufgebaut ist!**
