@@ -5,7 +5,7 @@ description: Wie ich mit Farbe und einem Nachmittag meinem Fahrrad ein neues Leb
 categories: [Fahrrad, DIY, MTB]
 ---
 
-Nachdem ich letztes Jahr mit meinem Mointainbike einen kleineren Unfall hatte, stand es diesen Winter in der Garage. Jetzt wo das Wetter wieder besser wird, steigt der Drang, das Rad wieder fahrtüchtig zu machen.
+Nachdem ich letztes Jahr mit meinem Mountainbike einen kleineren Unfall hatte, stand es diesen Winter in der Garage. Jetzt wo das Wetter wieder besser wird, steigt der Drang, das Rad wieder fahrtüchtig zu machen.
 
 Aber mit dem Rad habe ich ein (Luxus-)Problem. Mir Gefällt die Lackierung nicht mehr. Also habe ich mich im Internet schlau gemacht. Keine zwei Tage später, stand ich im Baumarkt, um mir das benötigte Material zu besorgen.
 
