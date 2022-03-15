@@ -13,7 +13,7 @@ Anschift auf Nachfrage
 
 Telefon auf Nachfrage
 
-E-Mail: [<img src="{{ site.baseurl }}/images/email.jpg">]({{ site.baseurl }}/)
+E-Mail: [<img src="{{ site.baseurl }}/images/email.jpg">](mailto:justinkrause2003+web@gmail.com)
 
 *Weitere Kontaktmöglichkeiten finden Sie in den Icons am Ende der Seite*
 
