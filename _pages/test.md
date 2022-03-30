@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Test
-description: Test
+permalink: /test/
 ---
 # Dies ist ein Test
 
