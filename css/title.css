@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    height: 1vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    max-width: 100%;
+    font-size: 3.1875rem;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    color: #353535;
+    background: linear-gradient(-45deg, #fcc92e, #f74488, #23a6d5, #11ff00);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+  }
+  
+  .title {
+    background-attachment: fixed;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+

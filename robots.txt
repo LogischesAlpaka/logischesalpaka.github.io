@@ -1,7 +1,0 @@
----
-layout: none
----
-User-agent: *
-Disallow: /images/email.jpg
-Disallow: /404.html
-Sitemap: /sitemap.xml

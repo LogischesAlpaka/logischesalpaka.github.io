@@ -1,52 +1,170 @@
----
-layout: default
----
-<div>
-  <h1>Hi, ich bin Justin &#128075; </h1>
-</div>
-<h2>Blogposts</h2>
-<div class="posts">
-  {% for post in paginator.posts %}
-    <article class="post">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <h1>{{ post.title }}</h1>
-
-        <div>
-          <p class="post_date">{{ post.date | date: "%-d. %B %Y" }}</p>
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Justin Krause">
+    <meta name="author" content="LogischesAlpaka">
+    <meta name="description" content="Moin, ich bin Justin. - Schüler, Hobby-Programmierer & Nerd">
+    <meta name="keywords" content="HTML, CSS, Programmierung, LogischesAlpaka, Justin Krause, Drohne, Video">
+    <meta name="robots" content="all">
+    <meta name="google-site-verification" content="Mf0D2zRaZnw0pfa1s1PFRoXEwrl8DJ5lNuNs5RW6vgc" />
+    <!-- SPEED --> 
+    <link rel="preconnect" href="https://avatars.githubusercontent.com/">
+    <link rel="dns-prefetch" href="https://avatars.githubusercontent.com/">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon-icons/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-icons/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-icons/favicon-16x16.png">
+   <link rel="manifest" href="/favicon-icons/site.webmanifest">
+   <link rel="mask-icon" href="/favicon-icons/safari-pinned-tab.svg" color="#5bbad5">
+   <meta name="msapplication-TileColor" content="#ffffff">
+   <meta name="msapplication-TileImage" content="/favicon-icons/mstile-144x144.png">
+   <meta name="msapplication-config" content="/favicon-icons/browserconfig.xml">
+   <meta name="theme-color" content="#ffffff">
+   <link rel="shortcut icon" href="/favicon-icons/favicon.ico">
+    <!-- PERFORMANCE -->
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="preload" as="style" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/title.css">
+    <!-- TITLE -->
+    <title>Justin Krause - Schüler, Hobby-Programmierer & Nerd</title>
+  </head>
+  <body>
+    <header role="banner" class="ui-section-header">
+      <div class="ui-layout-container">
+        <div class="ui-section-header__layout ui-layout-flex">
+          <!-- LOGO -->
+          <a href="#" role="link" aria-label="#" class="ui-section-header--logo">
+            <img src="https://avatars.githubusercontent.com/u/88859068" loading="lazy" alt="Avatar" class="ui-section-testimonial--avatar">
+            </svg>
+          </a>
+          
+          <!-- HAMBURGER -->
+          <input type="checkbox" id="ui-section-header--menu-id">
+          <label for="ui-section-header--menu-id" class="ui-section-header--menu-icon"></label>
+          <!-- MENU -->
+          <nav role="navigation" class="ui-section-header--nav ui-layout-flex">
+            <a href="/#aboutme" role="link" aria-label="#" class="ui-section-header--nav-link">Über mich</a>
+            <a href="/#projekte" role="link" aria-label="#" class="ui-section-header--nav-link">Projekte</a>
+            <a href="/#socials" role="link" aria-label="#" class="ui-section-header--nav-link">Social Media</a>
+            <a href="/blog" role="link" class="ui-section-header--nav-link">Blog</a>
+          </nav>
         </div>
-      </a>
-      <div class="entry">
-        {{ post.excerpt }}
       </div>
+    </header>
+    <main role="main">
+      <section class="ui-section-hero">
+        <div class="ui-layout-container">
+          <div class="ui-section-hero__layout ui-layout-grid ui-layout-grid-2">
+            <!-- COPYWRITING -->
+            <div>
+              <div class=".wrapper">
+               <h1 class="title">Moin,<h1>
+                <h1 class="title">ich bin Justin.<h1>
+             </div>
+              <p class="ui-text-intro">Schüler, Hobby-Programmierer & Nerd &#129299;</p>
+              <!-- CTA -->
+              <div class="ui-component-cta ui-layout-flex">
+                <a href="#aboutme" role="link" aria-label="#" class="ui-component-button ui-component-button-normal ui-component-button-primary">Über mich</a>
+               <!-- <p class="ui-text-note"><small></small></p>-->
+              </div>
+            </div>
+            <!-- IMAGE -->
+            <img src="/img/code.png" loading="lazy" alt="code" class=".ui-image-half-right">
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Mehr lesen...</a>
-    </article>
-  {% endfor %}
-
-  <!-- pagination -->
-  {% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; </a>
-    {% else %}
-      <span>&laquo; </span>
-    {% endif %}
-
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-        <span class="webjeda">{{ page }}</span>
-      {% elsif page == 1 %}
-        <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-      {% else %}
-        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-      {% endif %}
-    {% endfor %}
-
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"> &raquo;</a>
-    {% else %}
-      <span> &raquo;</span>
-    {% endif %}
-  </div>
-  {% endif %}
-</div>
+        </div>
+      </section>
+      <section id='aboutme' class="ui-section-feature">
+        <div class="ui-layout-container">
+          <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-1">
+            <!-- IMAGE 
+            <img src="https://res.cloudinary.com/uisual/image/upload/assets/devices/ipad.png" alt="#" class="ui-image-half-left"> -->
+            <!-- FEATURE -->
+            <div>
+              <h2>Über mich</h2>
+              <p class="ui-text-intro">Ich bin Justin (aka. LogischesAlpaka). Aktuell mache ich mein Fachabitur Informatik. 
+                Nebenbei realisiere ich gelegentlich kleine und größere IT-Projekte für Familie, Freunde & Bekannte. 
+                Außerdem versuche ich mich in der Programmierung & Webentwicklung.</p>
+              <p class="ui-text-intro">Meine Ideen präsentiere ich auf YouTube, in meinem Blog & auf Social Media. 
+                Schaut euch einfach mal um.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id='projekte' class="ui-section-feature">
+         <div class="ui-layout-container">
+          <div class="ui-section-feature__layout ui-layout-grid-2">
+            <!-- FEATURE -->
+            <div>
+              <h2>Projekte</h2>
+              <p>Viele meiner Projekte sind noch zu Übunszwecken oder nur satirischer Art:</p>
+              <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
+                <li class="ui-component-list--item ui-component-list--item-check">Meine Webseite<br> <small>Du befindest dich gerade auf meiner Webseite :)</small><br><a href="https://github.com/LogischesAlpaka/LogischesAlpaka.github.io" role="link"><small>Quellcode</small></a></li> 
+                <li class="ui-component-list--item ui-component-list--item-check"><a href="https://github.com/LogischesAlpaka/Penislaengenrechner" role="link">Längenrechner &#127814;</a> <br> <small>Windows Forms / .NET / C#</small> <br> <small>Ein nicht ganz so ernst gemeinter Längenrechner.</small></li>
+                <li class="ui-component-list--item ui-component-list--item-check">Web: <a href="https://ist-der-sandweg-gesperrt.netlify.app/" role="link">Ist der Sandweg gesperrt?</a> <br> <small>Webseite zur Prüfung des Sperrstatus des Sandweges in Göttingen. <a href="https://github.com/LogischesAlpaka/IstDerSandwegGesperrt" role="link">Quellcode</a></small></li>
+              </ul>
+            </div>
+         </div>
+        </div>
+      </section>
+      <section id='socials' class="ui-section-feature">
+        <div class="ui-layout-container">
+         <div class="ui-section-feature__layout ui-layout-grid-1">
+           <div>
+             <h2>Social Media</h2>
+             <p>Was ich noch so mache...</p>
+             <li class="ui-component-list--item ui-component-list--item-yt">
+             <a href="https://www.youtube.com/channel/UCP0wi4FKWdNAlr0N0rnrnow" role="link" aria-label="#">YouTube </a>
+             <small>Von Gaming bis zu Drohenflügen.</small>
+            </li>
+            <li class="ui-component-list--item ui-component-list--item-ig">
+              <a href="https://instagram.com/jstn.kr" role="link" aria-label="#">Instagram </a>
+              <small>Bilder sagen mehr als tausend Worte!</small>
+             </li>
+             <li class="ui-component-list--item ui-component-list--item-tw">
+              <a href="https://twitter.com/LogischesAlpaka" role="link" aria-label="#">Twitter </a>
+              <small>Meine Ideen & Gedanken auf 280 Zeichen.</small>
+             </li>
+             <li class="ui-component-list--item ui-component-list--item-dc">
+              <a href="https://discord.com/invite/BcQ8qncuEH" role="link" aria-label="#">Discord </a>
+             </li>
+             <li class="ui-component-list--item ui-component-list--item-gh">
+              <a href="https://github.com/LogischesAlpaka" role="link" aria-label="#">GitHub </a>
+              <small>Trockener Quellcode</small>
+             </li>
+             <li class="ui-component-list--item ui-component-list--item-in">
+              <a href="https://www.linkedin.com/in/justin-luca-krause/" role="link" aria-label="#">LinkedIn </a>
+             </li>
+             <li class="ui-component-list--item ui-component-list--item-fb">
+              <a href="https://facebook.com/jstn.kr" role="link" aria-label="#">Facebook </a>
+             </li>
+             <br>
+             <li class="ui-component-list--item ui-component-list--item-mail">
+              <a href="mailto:justinkrause2003+web@gmail.com" role="link" aria-label="#">Sende eine Mail! </a>
+             </li>
+           </div>
+        </div>
+       </div>
+     </section> 
+    </main>
+    <footer role="contentinfo" class="ui-section-footer">
+      <div class="ui-layout-container">
+        <div class="ui-section-footer__layout ui-layout-flex">
+          <!-- COPYRIGHT -->
+          <a href="../impressumdsgvo.html" role="link" aria-label="#">
+            <small>Impressum&nbsp;&&nbsp;Datenschutz</small></p>
+          </a>
+          <p class="ui-section-footer--copyright ui-text-note"><small>Made&nbsp;with&nbsp;&#10084;&nbsp;in&nbsp;Göttingen</small></p>
+          <a href="#" role="link" aria-label="#">
+            <svg viewBox="0 0 24 24" height="16" width="16" fill="none" stroke="#AEAEAE" stroke-linecap="square" stroke-linejoin="square" stroke-width="2" role="img" aria-label="#">
+              <path d="M0 16.67l2.829 2.83 9.175-9.339 9.167 9.339 2.829-2.83-11.996-12.17z"/>
+            </svg>
+          </a> 
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
