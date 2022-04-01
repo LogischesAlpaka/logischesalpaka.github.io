@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /impressumdsgvo.html
+Disallow: /impressumdsgvo/
+Disallow: /icons/
+Disallow: /404.html
+Sitemap: /sitemap.xml
+Sitemap: https://logischesalpaka.github.io/sitemap.xml
+Sitemap: http://logischesalpaka.github.io/sitemap.xml
