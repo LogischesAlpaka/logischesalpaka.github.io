@@ -33,28 +33,26 @@
     <title>Justin Krause - Schüler, Hobby-Programmierer & Nerd</title>
   </head>
   <body>
-    <header role="banner" class="ui-section-header">
-      <div class="ui-layout-container">
-        <div class="ui-section-header__layout ui-layout-flex">
-          <!-- LOGO -->
-          <a href="/" role="link" aria-label="#" class="ui-section-header--logo">
-            <img src="https://avatars.githubusercontent.com/u/88859068" loading="lazy" alt="Avatar" class="ui-section-testimonial--avatar">
-            </svg>
-          </a>
-          
-          <!-- HAMBURGER -->
-          <input type="checkbox" id="ui-section-header--menu-id">
-          <label for="ui-section-header--menu-id" class="ui-section-header--menu-icon"></label>
-          <!-- MENU -->
-          <nav role="navigation" class="ui-section-header--nav ui-layout-flex">
-            <a href="/#aboutme" role="link" aria-label="#" class="ui-section-header--nav-link">Über mich</a>
-            <a href="/#projekte" role="link" aria-label="#" class="ui-section-header--nav-link">Projekte</a>
-            <a href="/#socials" role="link" aria-label="#" class="ui-section-header--nav-link">Social Media</a>
-            <a href="/blog" role="link" class="ui-section-header--nav-link">Blog</a>
-          </nav>
-        </div>
-      </div>
-    </header>
+<html> 
+  <head> 
+    <script src="/jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#header").load("/static/header.html"); 
+    });
+    </script> 
+                  <noscript>
+                    <p class="ui-text-intro">Bitte aktivieren Sie Javascript in Ihrem Browser um eine korrekte Darstellung der Seite zu gewährleisten!</p>
+                    <a href="../impressumdsgvo.html" role="link" aria-label="#">
+                      <small>Impressum&nbsp;&&nbsp;Datenschutz</small></p>
+                    </a>
+                  </noscript>
+  </head> 
+
+  <body> 
+     <div id="header"></div>
+  </body> 
+</html>
     <main role="main">
       <section class="ui-section-hero">
         <div class="ui-layout-container">
@@ -80,9 +78,6 @@
       <section id='aboutme' class="ui-section-feature">
         <div class="ui-layout-container">
           <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-1">
-            <!-- IMAGE 
-            <img src="https://res.cloudinary.com/uisual/image/upload/assets/devices/ipad.png" alt="#" class="ui-image-half-left"> -->
-            <!-- FEATURE -->
             <div>
               <h2>Über mich</h2>
               <p class="ui-text-intro">Ich bin Justin (aka. LogischesAlpaka). Aktuell mache ich mein Fachabitur Informatik. 
@@ -150,21 +145,25 @@
        </div>
      </section> 
     </main>
-    <footer role="contentinfo" class="ui-section-footer">
-      <div class="ui-layout-container">
-        <div class="ui-section-footer__layout ui-layout-flex">
-          <!-- COPYRIGHT -->
-          <a href="../impressumdsgvo.html" role="link" aria-label="#">
-            <small>Impressum&nbsp;&&nbsp;Datenschutz</small></p>
-          </a>
-          <p class="ui-section-footer--copyright ui-text-note"><small>Made&nbsp;with&nbsp;&#10084;&nbsp;in&nbsp;Göttingen</small></p>
-          <a href="#" role="link" aria-label="#">
-            <svg viewBox="0 0 24 24" height="16" width="16" fill="none" stroke="#AEAEAE" stroke-linecap="square" stroke-linejoin="square" stroke-width="2" role="img" aria-label="#">
-              <path d="M0 16.67l2.829 2.83 9.175-9.339 9.167 9.339 2.829-2.83-11.996-12.17z"/>
-            </svg>
-          </a> 
-        </div>
-      </div>
-    </footer>
+    <html> 
+  <footer> 
+    <script src="/jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#footer").load("/static/footer.html"); 
+    });
+    </script> 
+                  <noscript>
+                    <p class="ui-text-intro">Bitte aktivieren Sie Javascript in Ihrem Browser um eine korrekte Darstellung der Seite zu gewährleisten!</p>
+                    <a href="../impressumdsgvo.html" role="link" aria-label="#">
+                      <small>Impressum&nbsp;&&nbsp;Datenschutz</small></p>
+                    </a>
+                  </noscript>
+                </footer> 
+
+  <body> 
+     <div id="footer"></div>
+  </body> 
+</html>
   </body>
 </html>
