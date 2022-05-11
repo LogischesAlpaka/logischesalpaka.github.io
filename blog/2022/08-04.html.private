@@ -41,12 +41,18 @@
           $("#header").load("/static/blogheader.html"); 
         });
         </script> 
-                      <noscript>
-                        <p class="ui-text-intro">Bitte aktivieren Sie Javascript in Ihrem Browser um eine korrekte Darstellung der Seite zu gewährleisten!</p>
-                        <a href="/impressumdsgvo.html" role="link" aria-label="#">
-                          <small>Impressum&nbsp;&&nbsp;Datenschutz</small></p>
-                        </a>
-                      </noscript>
+            <noscript>
+              <p class="ui-text-intro">
+                Bitte aktivieren Sie Javascript in Ihrem Browser um eine korrekte
+                Darstellung der Seite zu gewährleisten!
+                <a href="/impressum.html" role="link" aria-label="#">
+                  <small>Impressum</small>
+                </a>
+                <a href="/datenschutz.html" role="link" aria-label="#">
+                  <small>Datenschutz</small>
+                </a>
+              </p>
+            </noscript>
       </head> 
     
       <body> 
@@ -112,12 +118,18 @@ Also haltet die Ohren steif, für neue Updates von mir. Ein Fazit folgt auf jede
       $("#footer").load("/static/footer.html"); 
     });
     </script> 
-                  <noscript>
-                    <p class="ui-text-intro">Bitte aktivieren Sie Javascript in Ihrem Browser um eine korrekte Darstellung der Seite zu gewährleisten!</p>
-                    <a href="/impressumdsgvo.html" role="link" aria-label="#">
-                      <small>Impressum&nbsp;&&nbsp;Datenschutz</small></p>
-                    </a>
-                  </noscript>
+            <noscript>
+              <p class="ui-text-intro">
+                Bitte aktivieren Sie Javascript in Ihrem Browser um eine korrekte
+                Darstellung der Seite zu gewährleisten!
+                <a href="/impressum.html" role="link" aria-label="#">
+                  <small>Impressum</small>
+                </a>
+                <a href="/datenschutz.html" role="link" aria-label="#">
+                  <small>Datenschutz</small>
+                </a>
+              </p>
+            </noscript>
                 </footer> 
 
   <body> 
