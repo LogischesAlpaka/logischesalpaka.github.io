@@ -31,6 +31,12 @@
     <link rel="stylesheet" href="/css/title.css">
     <!-- TITLE -->
     <title>Impressum | Datenschutz | Rechtliches</title>
+    <script src="/jquery.js"></script> 
+        <script> 
+        $(function(){
+          $("#privacylabeljs").load("/static/privacylabel.html"); 
+        });
+        </script> 
   </head>
   <body>
     <html> 
@@ -77,7 +83,12 @@
                </li>
               </ul>
               </ul>
-
+              
+              <ul>
+              <li>
+                <a href="#privacylabel" role="link" aria-label="#"><b>Privacy Label - Datenschutz auf einen Blick</b></a>
+              </li>
+              </ul>
               <ul>
               <li>
                 <a href="#dsgvo" role="link" aria-label="#"><b>Datenschutzerklärung</b></a>
@@ -128,11 +139,19 @@
               <h3 id="hlinks">Haftung für Links</h3>
                 <p>Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.</p>
                 <br> 
+              <h2 id="privacylabel">Privacy Label - Datenschutz auf einen Blick</h2>
+
+              <noscript>
+                <p class="ui-text-intro">Bitte aktivieren Sie Javascript in Ihrem Browser um eine korrekte Darstellung der Seite zu gewährleisten!</p>
+              </noscript>
+              <br>
+              <div id="privacylabeljs"></div>
+              <br>
               <h2 id="dsgvo">Datenschutzerklärung</h2>
                <p>Mit der folgenden Datenschutzerklärung möchten wir Sie darüber aufklären, welche Arten Ihrer personenbezogenen Daten (nachfolgend auch kurz als “Daten“ bezeichnet) wir zu welchen Zwecken und in welchem Umfang verarbeiten.</p>
-               <p>Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. 
+               <p>Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten oder durch Kontaktaufnahme per E-Mail personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. 
+                Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. 
                 Die Datenschutzerklärung erläutert, welche Daten wir erheben und wofür wir sie nutzen. Sie erläutert auch, wie und zu welchem Zweck das geschieht.</p>
-              <p>Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann.Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.</p>
                <h3 id="dsgvo1">Wer ist verantwortlich für die Datenerfassung auf dieser Website?</h3>
                <p>Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem <a href="#impressum">Impressum</a> entnehmen.</p>
               <h3 id="dsgvo2">Wie erfassen wir Ihre Daten?</h3>
@@ -186,7 +205,7 @@
     </script> 
                   <noscript>
                     <p class="ui-text-intro">Bitte aktivieren Sie Javascript in Ihrem Browser um eine korrekte Darstellung der Seite zu gewährleisten!</p>
-                    <a href="../impressumdsgvo.html" role="link" aria-label="#">
+                    <a href="/impressumdsgvo.html" role="link" aria-label="#">
                       <small>Impressum&nbsp;&&nbsp;Datenschutz</small></p>
                     </a>
                   </noscript>
