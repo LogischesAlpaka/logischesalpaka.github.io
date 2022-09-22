@@ -623,6 +623,10 @@ div label[for=ui-component-toggle__yearly] {
   width: 5rem;
 }
 
+.ui-section-testimonial--avatarbig {
+  border-radius: var(--ui-radius-avatar);
+}
+
 .ui-section-testimonial--quote {
   margin-bottom: 1rem;
   margin-top: 1rem;
