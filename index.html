@@ -34,7 +34,6 @@
   <link rel="stylesheet" href="/css/fonts.css">
   <link rel="preload" as="style" href="/css/style.css">
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/title.css">
   <!-- TITLE -->
   <title>Moin, ich bin Justin.</title>
 </head>
@@ -65,7 +64,7 @@
 
   <body>
     <div id="header"></div>
-  </body>
+  
 
   </html>
   <main role="main">
@@ -79,9 +78,23 @@
           alt="Justin Bild"
         />
           <div>
-            <div class=".wrapper">
-              <h1 class="title">Moin,<h1>
-                  <h1 class="title">ich bin Justin.<h1>
+            <div>
+              <h1 id='hello'>Moin.</h1>
+              <script>
+                  var text = ["Hallo,", "Servus,", "Hello World!", "Grüezi", "Hey", "Moin.", "Gude", "Ahoi", "Bonjour", "hola", "Hej", "[Begrüßung hier einfügen.]"];
+                  var counter = 0;
+                  var elem = $("#hello");
+                  setInterval(change, 2800);
+                  function change() {
+                    elem.fadeOut(function(){
+                    elem.html(text[counter]);
+                    counter++;
+                    if(counter >= text.length) { counter = 0; }
+                    elem.fadeIn();
+                  });
+                  }
+              </script>
+              <h1>Ich bin Justin.</h1>
             </div>
             <p class="ui-text-intro">IT-Azubi, Nerd, Hobbyfotograf &#129299;</p>
             <!-- CTA -->
@@ -115,12 +128,12 @@
         <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-1">
           <div>
             <h2>Über mich</h2>
-            <p class="ui-text-intro">Ich bin Justin (aka. LogischesAlpaka). <br> Aktuell absolviere ich meine Ausbildung zum Fachinformatiker für Systemintegration.
+            <p class="ui-text-intro">Ich bin Justin Luca  <br> Aktuell absolviere ich meine Ausbildung zum Fachinformatiker - Fachrichtung:&nbsp;Systemintegration.
               <br>Nebenbei realisiere ich gelegentlich kleine und größere IT-Projekte für Familie, Freunde & Bekannte.
               Außerdem versuche ich mich in der Programmierung & Webentwicklung.
               <br>Mehr oder weniger gute Fotos mache ich auch noch!</p>
             <p class="ui-text-intro">Meine Ideen landen auf YouTube, auf Instagram & auf Social Media.
-              Schaut dich einfach mal um.
+              Schau dich einfach mal um.
             </p>
           </div>
         </div>
@@ -131,7 +144,7 @@
           <!-- FEATURE -->
           <div>
             <h2>Projekte</h2>
-            <p>Viele meiner Projekte sind nur zu Übunszwecken oder satirischer Art:</p>
+            <p>Viele meiner Projekte sind noch zu Übungszwecken oder satirischer Art:</p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
               <li class="ui-component-list--item ui-component-list--item-check"> <a
                 href="https://github.com/LogischesAlpaka/LogischesAlpaka.github.io" target="_blank" rel="noopener noreferrer"
@@ -234,7 +247,7 @@
     </noscript>
   </footer>
 
-  <body>
+  
     <div id="footer"></div>
   </body>
 
