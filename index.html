@@ -55,19 +55,26 @@
         <a href="/datenschutz.html" role="link" aria-label="#">
           <small>Datenschutz</small>
         </a>
+        <a href="/static/header.html" role="link" aria-label="#">
+          <small>Header</small>
+        </a>
+        <a href="/static/footer.html" role="link" aria-label="#">
+          <small>Footer</small>
+        </a>
       </p>
     </noscript>
   </head>
 
-  <body>
+  <bod  id="body">
     <div id="header"></div>
   
 
   </html>
   <main role="main">
     <section class="ui-section-hero">
-      <div class="ui-layout-container">
+      <div class="ui-layout-container">                       
         <div class="ui-section-hero__layout ui-layout-grid ui-layout-grid-2">
+
           <!-- COPYWRITING -->
           <img
           src="https://avatars.githubusercontent.com/u/88859068"
@@ -99,25 +106,25 @@
               <a href="#aboutme" role="link" aria-label="#"
                 class="ui-component-button ui-component-button-normal ui-component-button-primary">Über mich</a>
               <!-- <p class="ui-text-note"><small></small></p>-->
+                    <!-- Banner -->
+                    <script>var myVar = setInterval(myTimer, 4000);
+
+                      function myTimer() {
+                          $("#banner").fadeOut(2000);
+                      }</script>
+                    <script>
+                      $(document).ready(function(){
+                        $("#body").click(function(){
+                          $("#banner").hide(1000);
+                        });
+                      });
+                      </script>
+                      <div id="banner"> <small>Ich verwende keine Cookies :)</small></div>
+                      </head>
+                      <body>
             </div>
           </div>
           <!-- IMAGE-->
-          <noscript>
-            <p class="ui-text-intro">
-              Bitte aktivieren Sie Javascript in Ihrem Browser um eine korrekte
-              Darstellung der Seite zu gewährleisten!
-              <a href="/impressum.html" role="link" aria-label="#">
-                <small>Impressum</small>
-              </a>
-              <a href="/datenschutz.html" role="link" aria-label="#">
-                <small>Datenschutz</small>
-              </a>
-            </p>
-          </noscript>
-
-
-          
-
         </div>
     </section>
     <section id='aboutme' class="ui-section-feature">
@@ -158,7 +165,7 @@
           <div class="ui-layout-column-4">
             <!--<img src="https://res.cloudinary.com/uisual/image/upload/assets/icons/avatar.svg" alt="#" class="ui-section-testimonial--avatar"> -->
             <p class="ui-section-testimonial--author"><strong>erweiterter Sekundarabschluss I</strong>
-            <br>Carl-Friedrich-Gauß-Schule Groß Schneen
+            <br>Carl-Friedrich-Gauß-Schule<br>Groß Schneen
             <br><small class="ui-text-note">2014 - 2020</small></p>
           </div>
         </div>
